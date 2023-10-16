@@ -10,6 +10,7 @@ import { TestPageComponent } from './src/app/pages/test-page/test-page.component
 import { HeaderComponent } from './src/app/components/header/header.component';
 import { FooterComponent } from './src/app/components/footer/footer.component';
 import { CardComponent } from './src/app/components/card/card.component';
+import { AboutPageComponent } from './src/app/pages/about-page/about-page.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CardComponent } from './src/app/components/card/card.component';
     TestPageComponent,
     HeaderComponent,
     FooterComponent,
-    CardComponent
+    CardComponent,
+    AboutPageComponent
   ],
   imports: [
     BrowserModule,
