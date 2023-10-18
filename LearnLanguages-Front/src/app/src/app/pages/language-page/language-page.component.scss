@@ -1,0 +1,19 @@
+
+.language-cards {
+    display: flex;
+    gap: 2em;
+    
+    justify-content: center;
+}
+.language-question {
+    text-align: center;
+  }
+
+.return {
+    margin-left: 15px;
+}
+.language-content {
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+}

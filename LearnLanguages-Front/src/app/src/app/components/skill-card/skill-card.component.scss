@@ -1,6 +1,4 @@
-
-
-.card {
+.skill-card {
     border: 1px solid #ddd;
     border-radius: 4px;
     overflow: hidden;
@@ -9,20 +7,16 @@
     transition: transform 0.2s; /* Add a transition effect */
   }
   
-  .card:hover {
+  .skill-card:hover {
     transform: scale(1.05); /* Scale up the card on hover */
   }
   
-  .card-image {
-    width: 20em;
-    height: 12em;
-  }
-  
-  .card-body {
+ 
+  .skill-card-body {
     padding: 10px;
   }
   
-  .card-title {
+  .skill-card-title {
     font-size: 18px;
     margin-bottom: 10px;
   }

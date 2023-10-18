@@ -11,6 +11,8 @@ import { HeaderComponent } from './src/app/components/header/header.component';
 import { FooterComponent } from './src/app/components/footer/footer.component';
 import { CardComponent } from './src/app/components/card/card.component';
 import { AboutPageComponent } from './src/app/pages/about-page/about-page.component';
+import { SkillCardComponent } from './src/app/components/skill-card/skill-card.component';
+
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { AboutPageComponent } from './src/app/pages/about-page/about-page.compon
     HeaderComponent,
     FooterComponent,
     CardComponent,
-    AboutPageComponent
+    AboutPageComponent,
+    SkillCardComponent,
+ 
   ],
   imports: [
     BrowserModule,

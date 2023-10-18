@@ -8,4 +8,5 @@ import { CountryCardModel } from '../../models/country-card.model';
 })
 export class CardComponent {
   @Input() cardCountry: CountryCardModel; 
+  
 }

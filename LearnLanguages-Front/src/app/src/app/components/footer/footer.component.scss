@@ -10,8 +10,33 @@ footer {
 
   }
   
+  
   .footer-content {
     max-width: 1200px; /* Set a maximum width for the content */
     margin: 0 auto; /* Center the content horizontally */
+    display:flex;
+    justify-content: center;
+    gap: 6em;
   }
+  
+  .contact-details {
+    border-left: groove;
+  }
+  .social-icon {
+    font-size: 24px;
+    color: #007BFF; /* Icon color */
+    margin: 0 10px; /* Adjust spacing between icons */
+    text-decoration: none; /* Remove underlines from links */
+    
+  }
+  
+  ul {
+    text-align: left;
+    list-style-type: none;
+  }
+  
+  li {
+    text-align: center;
+  }
+  
   
