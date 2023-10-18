@@ -7,5 +7,5 @@ import { CountryCardModel } from '../../models/country-card.model';
   styleUrls: ['./card.component.scss']
 })
 export class CardComponent {
-  @Input() public countryCard!: CountryCardModel;
+  @Input() cardCountry: CountryCardModel; 
 }
