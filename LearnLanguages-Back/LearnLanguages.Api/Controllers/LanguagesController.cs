@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace LearnLanguages.Api.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("api/[controller]")]
 public class LanguagesController : ControllerBase
 {
     #region Attributes

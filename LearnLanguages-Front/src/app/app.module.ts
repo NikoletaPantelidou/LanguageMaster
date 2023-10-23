@@ -12,6 +12,7 @@ import { FooterComponent } from './src/app/components/footer/footer.component';
 import { CardComponent } from './src/app/components/card/card.component';
 import { AboutPageComponent } from './src/app/pages/about-page/about-page.component';
 import { SkillCardComponent } from './src/app/components/skill-card/skill-card.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { SkillCardComponent } from './src/app/components/skill-card/skill-card.c
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
