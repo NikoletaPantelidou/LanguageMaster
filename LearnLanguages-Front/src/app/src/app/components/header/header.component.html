@@ -1,7 +1,13 @@
-<header>
-    <div class="logo">LanguageMaster</div>
-    <nav>
-      <a routerLink="/about">About Us</a>
-    </nav>
-  </header>
-  
+<!-- <header>
+  <div class="logo">LanguageMaster</div>
+  <nav>
+    <a routerLink="/about">About Us</a>
+    <a routerLink="/log-in">Log in</a>
+    <a routerLink="/register">Register</a>
+  </nav>
+</header> -->
+
+<p-menubar [model]="items">
+    <ng-template pTemplate="end">
+    </ng-template>
+</p-menubar>

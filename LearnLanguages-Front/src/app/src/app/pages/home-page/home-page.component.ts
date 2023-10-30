@@ -11,7 +11,7 @@ export class HomePageComponent implements OnInit {
   
   public cardList : CountryCardModel[];
 
-  constructor(private languagesIntegrationService : LanguagesIntegrationService) { }
+  constructor(public languagesIntegrationService : LanguagesIntegrationService) { }
   
   public ngOnInit(): void {
     this.languagesIntegrationService.GetLanguages().subscribe(responseLanguages => this.cardList = responseLanguages);

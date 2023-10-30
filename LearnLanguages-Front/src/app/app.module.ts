@@ -13,6 +13,8 @@ import { CardComponent } from './src/app/components/card/card.component';
 import { AboutPageComponent } from './src/app/pages/about-page/about-page.component';
 import { SkillCardComponent } from './src/app/components/skill-card/skill-card.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ButtonModule } from 'primeng/button';
+import { MenubarModule } from 'primeng/menubar';
 
 
 @NgModule({
@@ -27,12 +29,13 @@ import { HttpClientModule } from '@angular/common/http';
     CardComponent,
     AboutPageComponent,
     SkillCardComponent,
- 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule 
+    HttpClientModule,
+    ButtonModule,
+    MenubarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

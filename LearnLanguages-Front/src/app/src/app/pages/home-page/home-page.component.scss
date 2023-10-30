@@ -1,7 +1,10 @@
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
 .home-content {
   display: flex;
   gap: 2em;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .home-question {
