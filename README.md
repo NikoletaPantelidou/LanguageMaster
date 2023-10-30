@@ -1,5 +1,5 @@
 
-![- Silvia Mellow - (1)](https://github.com/NikoletaPantelidou/learn-languages/assets/123751167/9f33f573-5820-443a-96be-c84a3656ff75)
+[(https://github.com/NikoletaPantelidou/learn-languages/assets/123751167/9f33f573-5820-443a-96be-c84a3656ff75)](https://www.canva.com/design/DAFxbErZ7gY/eNiwagtVwFx4BvU4w-IOLw/edit?utm_content=DAFxbErZ7gY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 ## What is LanguageMaster?
