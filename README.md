@@ -1,6 +1,5 @@
 
-[(https://github.com/NikoletaPantelidou/learn-languages/assets/123751167/9f33f573-5820-443a-96be-c84a3656ff75)](https://www.canva.com/design/DAFxbErZ7gY/eNiwagtVwFx4BvU4w-IOLw/edit?utm_content=DAFxbErZ7gY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-
+![- Silvia Mellow -](https://github.com/NikoletaPantelidou/LanguageMaster/assets/123751167/9a083b4e-c937-4c61-a4e9-a85d713ce62c)
 
 ## What is LanguageMaster?
 Language Master is a website that help anyone who is interested in learning Greek, Spanish or English. It includes all types of skills such as listening, writing, speaking, plus a section of exams
