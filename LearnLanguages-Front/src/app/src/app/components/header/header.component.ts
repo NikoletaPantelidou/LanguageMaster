@@ -9,11 +9,16 @@ import { MenuItem } from 'primeng/api';
 export class HeaderComponent {
   public items: MenuItem[] = [
   {
-      label: 'Quit',
+      label: 'About us',
+      icon:'pi pi-users'
   },
   {
     label: 'Login',
-    icon: 'pi pi-fw pi-user',
+    icon: 'pi pi-sign-in',
   },
+  { label: 'Log out',
+    icon: 'pi pi-sign-out',
+  },
+  
 ];
 }
