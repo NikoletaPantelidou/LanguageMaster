@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormBuilder, Validators } from '@angular/forms';
 
 
 export class AppModule { }
@@ -8,13 +9,15 @@ export class AppModule { }
   styleUrls: ['./login-page.component.scss']
 })
 export class LoginPageComponent {
-  username: string;
-  password: string;
+
+constructor(private formConstructor: FormBuilder) { }
+
+  loginForm = this.formConstructor.group({
+    username: [''],
+    password: ['', [Validators.required, Validators.minLength(8)]],
+  })
 
   onSubmit() {
-    
-    console.log('Username:', this.username);
-    console.log('Password:', this.password);
-    
+    console.log(this.loginForm)
   }
 }

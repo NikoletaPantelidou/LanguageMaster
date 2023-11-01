@@ -16,6 +16,10 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { LanguagePageComponent } from './pages/language-page/language-page.component';
 import { TestPageComponent } from './pages/test-page/test-page.component';
 import { LoginPageComponent } from './pages/login-page/login-page.component';
+import { PasswordModule } from 'primeng/password';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { InputTextModule } from 'primeng/inputtext';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -36,9 +40,14 @@ import { LoginPageComponent } from './pages/login-page/login-page.component';
     AppRoutingModule,
     HttpClientModule,
     ButtonModule,
-    MenubarModule
+    MenubarModule,
+    PasswordModule,
+    FormsModule,
+    ReactiveFormsModule,
+    InputTextModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
