@@ -3,19 +3,23 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomePageComponent } from './src/app/pages/home-page/home-page.component';
-import { LanguagePageComponent } from './src/app/pages/language-page/language-page.component';
-import { FieldPageComponent } from './src/app/pages/field-page/field-page.component';
-import { TestPageComponent } from './src/app/pages/test-page/test-page.component';
-import { HeaderComponent } from './src/app/components/header/header.component';
-import { FooterComponent } from './src/app/components/footer/footer.component';
-import { CardComponent } from './src/app/components/card/card.component';
-import { AboutPageComponent } from './src/app/pages/about-page/about-page.component';
-import { SkillCardComponent } from './src/app/components/skill-card/skill-card.component';
-import { HttpClientModule } from '@angular/common/http';
 import { ButtonModule } from 'primeng/button';
 import { MenubarModule } from 'primeng/menubar';
-
+import { HttpClientModule } from '@angular/common/http';
+import { CardComponent } from './components/card/card.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { HeaderComponent } from './components/header/header.component';
+import { SkillCardComponent } from './components/skill-card/skill-card.component';
+import { AboutPageComponent } from './pages/about-page/about-page.component';
+import { FieldPageComponent } from './pages/field-page/field-page.component';
+import { HomePageComponent } from './pages/home-page/home-page.component';
+import { LanguagePageComponent } from './pages/language-page/language-page.component';
+import { TestPageComponent } from './pages/test-page/test-page.component';
+import { LoginPageComponent } from './pages/login-page/login-page.component';
+import { PasswordModule } from 'primeng/password';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { InputTextModule } from 'primeng/inputtext';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -29,15 +33,21 @@ import { MenubarModule } from 'primeng/menubar';
     CardComponent,
     AboutPageComponent,
     SkillCardComponent,
+    LoginPageComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     ButtonModule,
-    MenubarModule
+    MenubarModule,
+    PasswordModule,
+    FormsModule,
+    ReactiveFormsModule,
+    InputTextModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
