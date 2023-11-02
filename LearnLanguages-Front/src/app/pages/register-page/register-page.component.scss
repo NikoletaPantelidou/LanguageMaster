@@ -1,0 +1,22 @@
+.register-form{
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 2em;
+    border: 1px solid grey;
+    border-radius: 1em;
+    padding: 5vh 10vw;
+    align-content: center;
+    margin: auto;
+    box-shadow: -1px 3px 15px dimgray;
+    max-width: 30em;
+    margin-top: 2em;
+}
+// body{
+//     background-image: url("/assets/images/register-img.jpg");
+//     background-repeat: no-repeat;
+//     background-size: cover;
+// }
+  

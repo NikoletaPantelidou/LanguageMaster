@@ -1,18 +1,18 @@
 <form [formGroup]="loginForm" class="form-group">
   <img class="login-image" src="/assets/images/login-img.png" />
   <h2>Welcome Back!</h2>
-  <input
-    type="text"
-    placeholder="Username"
-    pInputText
-    formControlName="username"
-  />
-  <p-password
-    placeholder="Password"
-    formControlName="password"
-    [toggleMask]="true"
-  ></p-password>
-  <p-button (click)="onSubmit()">Log in</p-button>
+  
+    <span class="p-float-label">
+        <input pInputText id="email" formControlName="email"  />
+        <label htmlFor="email">Email</label>
+    </span>
+
+    <span class="p-float-label">
+        <input pInputText id="password" formControlName="password" />
+        <label htmlFor="password">Password</label>
+    </span>
+
+  <p-button (click)="onSubmit()" [disabled]="!loginForm.valid">Log in</p-button>
   <p class="password-question">
     Did you forget your password? Click <a href="">here.</a>
   </p>
@@ -21,4 +21,7 @@
   <img class="usa-flag" src="/assets/images/usa-flag.png" />
   <img class="span-flag" src="/assets/images/spain-flag.png" />
   <img class="greek-flag" src="/assets/images/greek-flag.png" />
+  <img class="uk-flag" src="/assets/images/uk-flag.png">
+  <img class="canada-flag" src="/assets/images/canada-flag.png">
+  <img class="mexico-flag" src="/assets/images/mexico-flag.png">
 </div>

@@ -13,8 +13,8 @@ export class LoginPageComponent {
 constructor(private formConstructor: FormBuilder) { }
 
   loginForm = this.formConstructor.group({
-    username: [''],
-    password: ['', [Validators.required, Validators.minLength(8)]],
+    email:     ['', ],
+    password:  ['', [Validators.required, Validators.minLength(8)]],
   })
 
   onSubmit() {

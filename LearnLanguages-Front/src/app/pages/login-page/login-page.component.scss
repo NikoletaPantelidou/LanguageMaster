@@ -10,7 +10,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
-    gap: 1em;
+    gap: 1.5em;
     border: 1px solid grey;
     border-radius: 1em;
     padding: 5vh 10vw;
@@ -21,26 +21,55 @@
     margin-top: 2em;
 }
 
-
-.usa-flag,
-.spain-flag,
-.greek-flag {
-    width: 90px;
-}
-
 .flag {
-    animation: fly 5s infinite ease-in-out;
-
+  position: relative;
 }
 
-@keyframes fly {
-    50% {
+.flag img {
+  position: absolute;
+  bottom: 0;
+  animation: fly-up 5s ease-in-out infinite;
+  opacity: 0;
+}
+
+.usa-flag {
+  left: 10%;
+  width: 90px;
+}
+
+.span-flag {
+  left: 25%;
+  width: 90px;
+}
+
+.greek-flag {
+  left: 70%;
+  width: 90px;
+}
+
+.uk-flag{
+  left: 80%;
+  width: 90px;
+}
+
+.canada-flag{
+  left: 90%;
+  width: 90px;
+}
+
+.mexico-flag{
+  left: 35%;
+  width: 90px;    
+}
+
+  @keyframes fly-up {
+  50% {
         transform: translateY(-50vh);
         opacity: 1;
     }
-
+      
     100% {
         transform: translateY(-100vh);
         opacity: 0;
     }
-}
+  }

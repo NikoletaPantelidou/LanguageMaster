@@ -1,0 +1,35 @@
+<body>
+<form class="register-form" [formGroup]="registerForm" >
+    <h1>Welcome to LanguageMaster!</h1>
+<input
+    type="text"
+    placeholder="Username"
+    pInputText
+    formControlName="username"
+  />
+  <input
+    type="text"
+    placeholder="Email"
+    pInputText
+    formControlName="email"
+  />
+  <input
+    type="text"
+    placeholder="Phone number"
+    pInputText
+    formControlName="phoneNumber"
+  />
+  <p-password
+    placeholder="Password"
+    formControlName="password"
+    [toggleMask]="true"
+  ></p-password>
+  <p-password
+  placeholder="Repeat password"
+  formControlName="repeatPassword"
+  [toggleMask]="true"
+></p-password>
+<button pButton pRipple label="Submit" class="p-button-success" [disabled]="!registerForm.valid" (click)="onSubmit()"></button>
+
+</form>
+</body>

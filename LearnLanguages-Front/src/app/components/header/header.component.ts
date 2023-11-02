@@ -23,6 +23,7 @@ export class HeaderComponent {
   {
     label:'Register',
     icon:'pi pi-user-plus',
+    routerLink: 'register'
   }
 ];
 }

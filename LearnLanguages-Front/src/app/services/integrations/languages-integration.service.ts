@@ -11,10 +11,10 @@ export class LanguagesIntegrationService  {
   constructor(private _http: HttpClient) { }
 
   public GetLanguages() : Observable<CountryCardModel[]> {
-    return this._http.get<CountryCardModel[]>('https://localhost:44349/api/languages');
+    return this._http.get<CountryCardModel[]>('https://localhost:7055/api/languages');
   }
 
   public DeleteLanguages(id : number) {
-    return this._http.delete(`https://localhost:44349/api/languages/${id}`);
+    return this._http.delete(`https://localhost:7055/api/languages/${id}`);
   }
 }
