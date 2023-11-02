@@ -17,8 +17,27 @@
     Did you forget your password? Click <a href="">here.</a>
   </p>
 </form>
-<div class="flag">
+<!-- <div class="flag"> 
   <img class="usa-flag" src="/assets/images/usa-flag.png" />
   <img class="span-flag" src="/assets/images/spain-flag.png" />
   <img class="greek-flag" src="/assets/images/greek-flag.png" />
+</div> -->
+
+<!-- login.component.html -->
+<div class="flag" [ngStyle]="getRandomPosition()">
+  <img class="usa-flag" src="/assets/images/usa-flag.png" alt="USA Flag" />
+</div>
+<div class="flag" [ngStyle]="getRandomPosition()">
+  <img
+    class="spain-flag"
+    src="/assets/images/spain-flag.png"
+    alt="Spain Flag"
+  />
+</div>
+<div class="flag" [ngStyle]="getRandomPosition()">
+  <img
+    class="greek-flag"
+    src="/assets/images/greek-flag.png"
+    alt="Greek Flag"
+  />
 </div>
